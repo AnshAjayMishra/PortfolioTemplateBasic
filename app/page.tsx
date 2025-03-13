@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import pp from "../public/pp11.jpg";
+import Ansh from "../public/pp11.png";
 import pp1 from "../public/pp1.png";
 import pp2 from "../public/pp2.png";
 import pp3 from "../public/pp3.png";
@@ -30,9 +30,9 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="flex items-center justify-between mb-12"
         >
-          <div className="w-24 h-24 rounded-full overflow-hidden">
+          <div className="w-24 h-24 rounded-full overflow-hidden border dark:border-zinc-900 ">
             <Image
-              src={pp}
+              src={Ansh}
               alt="pp"
               className="cursor-pointer transition-all duration-300 hover:scale-110"
             />
